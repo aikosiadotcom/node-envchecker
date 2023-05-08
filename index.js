@@ -16,7 +16,7 @@ module.exports = function (variables) {
   })
 
   if (lostItems.length > 0) {
-    console.error(lostItems)
+//     console.error(lostItems)
     throw (new Error('These variables are required.'))
   }
 
